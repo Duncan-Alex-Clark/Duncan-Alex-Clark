@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "RS32I_Testbench_behav" "xil_defaultlib.RS32I_Testbench" -log "elaborate.log" 

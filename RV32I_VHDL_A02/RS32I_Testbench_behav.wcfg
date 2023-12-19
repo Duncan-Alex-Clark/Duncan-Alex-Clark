@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RS32I_Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RS32I_Testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,934.200 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,325.001 ns"></ZoomEndTime>
+      <Cursor1Time time="3,112.800 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="178"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/RS32I_Testbench/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="group52" type="group">
+      <obj_property name="label">Testbench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RS32I_Testbench/CS" type="logic">
+         <obj_property name="ElementShortName">CS</obj_property>
+         <obj_property name="ObjectShortName">CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/WE" type="logic">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/Data_IN" type="array">
+         <obj_property name="ElementShortName">Data_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/Data_OUT" type="array">
+         <obj_property name="ElementShortName">Data_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/PC_OUT" type="array">
+         <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/Instruction_IN" type="array">
+         <obj_property name="ElementShortName">Instruction_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/Address" type="array">
+         <obj_property name="ElementShortName">Address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/AddressTB" type="array">
+         <obj_property name="ElementShortName">AddressTB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AddressTB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/Address_Mux" type="array">
+         <obj_property name="ElementShortName">Address_Mux[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Address_Mux[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/init" type="logic">
+         <obj_property name="ElementShortName">init</obj_property>
+         <obj_property name="ObjectShortName">init</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/WE_Mux" type="logic">
+         <obj_property name="ElementShortName">WE_Mux</obj_property>
+         <obj_property name="ObjectShortName">WE_Mux</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/CS_Mux" type="logic">
+         <obj_property name="ElementShortName">CS_Mux</obj_property>
+         <obj_property name="ObjectShortName">CS_Mux</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/WE_TB" type="logic">
+         <obj_property name="ElementShortName">WE_TB</obj_property>
+         <obj_property name="ObjectShortName">WE_TB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/CS_TB" type="logic">
+         <obj_property name="ElementShortName">CS_TB</obj_property>
+         <obj_property name="ObjectShortName">CS_TB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/W" type="other">
+         <obj_property name="ElementShortName">W</obj_property>
+         <obj_property name="ObjectShortName">W</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/RS32I_Testbench/Instr_List" type="array">
+      <obj_property name="ElementShortName">Instr_List[0:34][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_List[0:34][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group28" type="group">
+      <obj_property name="label">Register Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RS32I_Testbench/CPU/GP_Registers/WE" type="logic">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/CPU/GP_Registers/RegA" type="array">
+         <obj_property name="ElementShortName">RegA[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RegA[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/CPU/GP_Registers/RegB" type="array">
+         <obj_property name="ElementShortName">RegB[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RegB[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/CPU/GP_Registers/RegC" type="array">
+         <obj_property name="ElementShortName">RegC[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RegC[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/CPU/GP_Registers/DW" type="array">
+         <obj_property name="ElementShortName">DW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/CPU/GP_Registers/DataA" type="array">
+         <obj_property name="ElementShortName">DataA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DataA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/CPU/GP_Registers/DataB" type="array">
+         <obj_property name="ElementShortName">DataB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DataB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group4323" type="group">
+         <obj_property name="label">CPU Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/RS32I_Testbench/CPU/MEM_Reading" type="logic">
+            <obj_property name="ElementShortName">MEM_Reading</obj_property>
+            <obj_property name="ObjectShortName">MEM_Reading</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RS32I_Testbench/CPU/RegWE" type="logic">
+            <obj_property name="ElementShortName">RegWE</obj_property>
+            <obj_property name="ObjectShortName">RegWE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RS32I_Testbench/CPU/State" type="other">
+            <obj_property name="ElementShortName">State</obj_property>
+            <obj_property name="ObjectShortName">State</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RS32I_Testbench/CPU/Op" type="other">
+            <obj_property name="ElementShortName">Op</obj_property>
+            <obj_property name="ObjectShortName">Op</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/CPU/GP_Registers/Registers" type="array">
+         <obj_property name="ElementShortName">Registers[0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">Registers[0:31][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group51" type="group">
+      <obj_property name="label">Memory Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RS32I_Testbench/MEM/CS" type="logic">
+         <obj_property name="ElementShortName">CS</obj_property>
+         <obj_property name="ObjectShortName">CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/WE" type="logic">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/ADDR" type="array">
+         <obj_property name="ElementShortName">ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/Data_IN" type="array">
+         <obj_property name="ElementShortName">Data_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/PC_IN" type="array">
+         <obj_property name="ElementShortName">PC_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/Instruction_OUT" type="array">
+         <obj_property name="ElementShortName">Instruction_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/Data_OUT" type="array">
+         <obj_property name="ElementShortName">Data_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/InstructionMemory" type="array">
+         <obj_property name="ElementShortName">InstructionMemory[0:4092][7:0]</obj_property>
+         <obj_property name="ObjectShortName">InstructionMemory[0:4092][7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/Instruction_Output" type="array">
+         <obj_property name="ElementShortName">Instruction_Output[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction_Output[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RS32I_Testbench/MEM/Data_Output" type="array">
+         <obj_property name="ElementShortName">Data_Output[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_Output[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

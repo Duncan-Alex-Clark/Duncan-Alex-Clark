@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/T5810/Documents/ONEDRIVE/Documents/Projects/Personal FPGA Projects/RV32I_VHDL_A02/RV32I_VHDL_A02.srcs/sources_1/new/RV32I.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RV32I'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/T5810/Documents/ONEDRIVE/Documents/Projects/Personal FPGA Projects/RV32I_VHDL_A02/RV32I_VHDL_A02.srcs/sim_1/new/RV32I_Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RS32I_Testbench'
