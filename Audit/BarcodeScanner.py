@@ -1,17 +1,4 @@
-#
-# File     BarcodeScanner.py
-#
-# Brief    Wrapper/helper functions for the Cognex Barcode Scanner library (Windows/Linux)
-# 
-# Details  This is the python interface to the Cognex barcode scanner library (originally
-#          named the Manatee Works Barcode Scanners Libary).
-#         
-#          ctypes is used to load and wrap the library's function, with MWResult.py provided to
-#          convert the library's barcode scan data to an easy to use object, while MWParser.py 
-#          has the definitions for the SDK's data parser functions.
-#
-# Notice   Copyright (C) Cognex Corporation 
-#
+# Original work by Duncan Clark with additional capability from Cognex SDK.
 
 import struct
 import ctypes
